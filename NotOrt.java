@@ -33,7 +33,7 @@ public class NotOrt {
         muzik=not.nextInt();
         
 
-        float ortalama;
+        double ortalama;
         ortalama=(mat+fizik+kimya+turkce+tarih+muzik)/6;
 
         System.out.println("Butun derslerin notlarinin ortalamasi="+ortalama);
