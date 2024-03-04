@@ -1,5 +1,7 @@
 import java.util.Scanner;
 
+import javax.lang.model.util.ElementScanner14;
+
 
 public class NotOrt {
     public static void main(String[] args){
@@ -39,6 +41,15 @@ public class NotOrt {
         System.out.println("Butun derslerin notlarinin ortalamasi="+ortalama);
 
 
+        if (ortalama>=60){
+            System.out.println("Ogrenci Sinifi Gecti, Tebrikler!");
+        
+
+        }
+        else{
+            System.out.println("Ogrenci Sinifta kaldi, Seneye gorusuruz ;)");
+        }
+        
 
 
 
